@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=“UTF-8” />
+        <meta http-equiv=“X-UA-Compatible” content=“IE=edge” />
+        <meta name=“viewport” content=“width=device-width, initial-scale=1.0” />
+<!--링크미리보기-->
+        <meta property=“og:title” content=“박세미 프로필 링크” />
+        <meta property=“og:description” content=“궁금하면 클릭” />
+        <meta property=“og:image” content=“semipicture.jpg” />
+       
+        <title>박세미 프로필 링크</title>
+        <style>
+            /*폰트*/
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+
+            body {
+                background-color: lavender;
+            }
+
+            .profile {
+                width: 120px;
+                height: 120px;
+                background-color: greenyellow;
+                /*둥굴게하기*/
+                border-radius: 100%; 
+                border: 2px solid white;
+                background-image: url("semipicture.jpg");
+                background-position: center;
+                background-size: cover;
+            }
+
+            .main {
+                color: rgb(197, 119, 221);
+                font-size: 25px;
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+
+            .sub {
+                color: rgb(230, 166, 255);
+                font-size: 18px;
+                margin-top: 10px;
+                margin-bottom: 30px;
+            }
+
+            .wrap {
+                width: 300px;
+                margin: 30px auto 0px auto;
+
+            /*가운데 정렬*/
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center; 
+            }
+
+            .wrap > a {
+                width: 300px;
+                height: 50px;
+                background-color: white;
+                border-radius: 8px;
+                margin-bottom: 10px;
+                font-size: 16px;
+                font-weight: bold;
+                color:rgb(197, 119, 221);
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center; 
+
+                /*링크 줄 없애기*/
+                text-decoration: none;
+
+                box-shadow: 1px 1px 3px 0px black;
+            }
+            .wrap > a:hover {
+                background-color: rgb(255, 254, 223);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"> </div>
+            <h1 class="main">박세미</h1>
+            <p class="sub">졸업반</p>
+            <a target="_blank" href="https://www.youtube.com/watch?v=OBD0S2Qdq7U&ab_channel=sonwooang">1학년</a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=OBD0S2Qdq7U&ab_channel=sonwooang">2학년</a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=OBD0S2Qdq7U&ab_channel=sonwooang">3학년</a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=OBD0S2Qdq7U&ab_channel=sonwooang">4학년</a>
+        </div>
+    </body>
+</html>
